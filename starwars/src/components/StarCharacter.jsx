@@ -24,7 +24,7 @@ function StarCharacter() {
         {character.map(character => {
           return (
             <StarCard
-              key={character.id}
+              key={character.name}
               name={character.name}
               height={character.height}
               hairColor={character.hair_color}
