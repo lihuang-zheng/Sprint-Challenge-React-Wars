@@ -2,11 +2,15 @@ import React from "react";
 import { Card, CardText, CardBody, CardTitle, Col } from "reactstrap";
 
 const titleStyle = {
-  fontSize: "2rem"
+  fontSize: "1.5rem",
+  fontWeight: "bold"
 };
 
 const cardStyle = {
-  border: "1px solid red"
+  width: "200px",
+  height: "250px",
+  margin: "4%",
+  boxShadow: "1px 5px 10px gray"
 };
 
 function StarCard(props) {
